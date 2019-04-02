@@ -47,9 +47,9 @@
 #endif
 
 #ifdef ONNX_ML
-#include "onnx/onnx-ml.pb.h"
+#include "onnx-ml.pb.h"
 #else
-#include "onnx/onnx.pb.h"
+#include "onnx.pb.h"
 #endif
 
 #endif // ! ONNX_ONNX_PB_H

@@ -5,7 +5,7 @@
 
 #include "onnx/onnx_pb.h"
 #ifdef ONNX_ML
-#include "onnx/onnx-operators-ml.pb.h"
+#include "onnx-operators-ml.pb.h"
 #else
-#include "onnx/onnx-operators.pb.h"
+#include "onnx-operators.pb.h"
 #endif
